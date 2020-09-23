@@ -1,0 +1,197 @@
+/*
+
+Template: VedhaDocs - The complete documentation template
+Version: 1.0
+Author: vedhathemes
+
+*/
+/*================================================
+  [  Table of contents  ]
+  ================================================
+  
+  :: Sidemenu
+  :: Header
+  :: Layout
+  :: Article
+  :: Article-2
+  :: Footer
+  :: 404
+  :: Pagination
+  :: Badge
+  :: Contact
+  :: Faq
+  :: Chat-Box-Header
+
+======================================
+[ End table content ]
+======================================*/
+
+/*============================
+  sidemenu
+  ============================*/
+.org-theme .sidebar-wrapper,
+#show-sidebar {
+  background: linear-gradient(-20deg, #2883dd 0%, #105ca8 100%);
+}
+
+.sidebar-wrapper .sidebar-brand{
+    background: #2883dd;
+}
+.sidebar-wrapper .sidebar-menu .sidebar-dropdown .sidebar-submenu ul li.active a
+{
+  color: #e6f2ff;
+}
+.sidebar-wrapper .sidebar-menu ul li.side-list.active > a
+{
+  color: #e6f2ff;
+}
+/*end of sidemenu*/
+
+/*============================
+  Header
+  ============================*/
+.doc-head-section {
+    background: #dde5ff;
+}
+.search-wrapper {
+  border-bottom: 1px solid #2883dd;
+}
+
+.header-full {
+  border-bottom: 1px solid #cad3f0;
+}
+.header-full .search-wrapper{
+  background: #ccd8ff;
+}
+
+/*end of header*/
+
+/*============================
+  layout
+  ============================*/
+.imp-note{
+  border-left: 5px solid #f5f9ff;
+}
+
+#features h4 i {
+  color: #8da7ff;
+}
+/*end of layout*/
+
+/*============================
+  article
+  ============================*/
+.article-inner-wrapper i
+{
+  color: #698af6;
+}
+.article-content-list h5 i
+{
+  color: #b8c8ff;
+}
+/*end of article*/
+
+/*============================
+  article-2
+  ============================*/
+.article-helpful .box-btns a
+{
+  border: 1px solid #7394ff;
+  color: #7394ff;
+}
+.article-helpful .box-btns a:hover {
+  background: #7394ff;
+  color: #fff;
+}
+.comments .atr-comment .inner-comment a
+{
+  color:#7394ff;
+}
+.leave_cmt form .input-wrapper input.submit-btn
+{
+  background: #2883dd;
+}
+ul.pro-ul li:before
+{
+  border: 1px solid #2883dd;
+}
+/*end of article-2*/
+
+/*============================
+  footer
+  ============================*/
+footer
+{
+  background: #dde5ff;
+}
+footer ul li a
+{
+  color: rgb(40, 131, 221);
+  border-right: 1px solid #6f7fab;
+}
+/*end of footer*/
+
+/*============================
+  404
+  ============================*/
+.error-sec a
+{background: rgba(40, 131, 221,1);
+  background: -moz-linear-gradient(top, rgba(40, 131, 221,1) 0%, rgba(40, 131, 221,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(40, 131, 221,1)), color-stop(100%, rgba(15,37,110,1)));
+  background: -webkit-linear-gradient(top, rgba(40, 131, 221,1) 0%, rgba(40, 131, 221,1) 100%);
+  background: -o-linear-gradient(top, rgba(40, 131, 221,1) 0%, rgba(40, 131, 221,1) 100%);
+  background: -ms-linear-gradient(top, rgba(40, 131, 221,1) 0%, rgba(15,37,110,1) 100%);
+  background: linear-gradient(to bottom, rgba(40, 131, 221,1) 0%, rgba(40, 131, 221,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#092ea8', endColorstr='#0f256e', GradientType=0 );
+}
+/*end of 404*/
+.banner-input{
+  background-color: rgb(40, 131, 221)!important;
+}
+/*============================
+  pagination
+  ============================*/
+.page-link {
+    color: #2883dd;
+}
+.page-item.active .page-link {
+  background-color: #2883dd;
+  border-color: #2883dd;
+}
+/*end of pagination*/
+
+/*============================
+  badge
+  ============================*/
+.badge-secondary
+{
+    background-color: #728ff2;
+}
+/*end of badge*/
+
+/*============================
+  contact
+  ============================*/
+.contact-form input[type=submit] {
+  background: #2883dd;
+  border: 1px solid #2883dd;
+  color: #fff;
+}
+/*end of contact*/
+
+/*============================
+  faq
+  ============================*/
+.faq-div h4 {
+  color: #2883dd;
+}
+/*end of faq*/
+
+/*============================
+  chat-box-header
+  ============================*/
+.chat-box-header
+{
+  background: #2883dd;
+}
+/*end of chat-box-header*/
