@@ -22,8 +22,8 @@
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-          <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
     <!-- Demo styles -->
 </head>
@@ -31,14 +31,14 @@
 <body>
 
     <!-- ======================
-     Pre-loader
-     ====================== -->
+    Pre-loader
+    ====================== -->
     <div class="preloader">
         <img src="assets/images/preloader.svg" class="img-fluid" alt="preloader">
     </div>
     <!-- ======================
-         page-wrapper
-         ====================== -->
+        page-wrapper
+        ====================== -->
     <div class="page-wrapper org-theme toggled">
         <a id="show-sidebar" class="btn btn-sm" href="#"> <i class="ti-angle-double-right"></i>
         </a>
@@ -91,57 +91,62 @@
         <main class="page-content">
 
             <!--=============================
-      doc-head-section 
-      =============================-->
+    doc-head-section 
+    =============================-->
 
             <!-- end of doc-head-section -->
 
             <div class="clearfix main-content">
                 <div class="content-section">
                     <!--=====================
-                     introduction
-                     =====================-->
+                    introduction
+                    =====================-->
                     <section class="introduction">
-                        <h2>Swirge Pay Farms </h2>
+                        <h2>SwirgeSwap Exchange</h2>
                         <!-- <p>Discover what’s included in Bootstrap, including our precompiled and source code flavors. Remember, Bootstrap’s JavaScript plugins require jQuery.</p> -->
                     </section>
                     <!-- end of introduction -->
                     <!--=====================
-                     precompiled
-                     =====================-->
+                    precompiled
+                    =====================-->
                     <section id="precompiled" class="section">
-                        <h3>The Swirge Pay Farms are located here:
+                        <h3>SwirgeSwap Exchange:
                         </h3>
-                        <ul style="font-size: 16px;">
-                            <li>
-                                <a href="">https://app.swirgeswap.com</a>
-                            </li>
-                        </ul>
+                        <p>The SwirgeSwapexchange allows users to swap any ERC20 token into any other ERC20 token through automated liquidity pools.</p>
+                        <div class="">
+                            <img src="./assets/images/swirgeswap exchange.png" alt="" width="100%" class="my-5">
+                        </div>
                         <p>
                             The Farm allows users to yield farm Swirge rewards with each new block based on staking SLP tokens they received from app.swirgepay.com/pool
                             <br> The farm previously supported UNI-V2 LP tokens from Uniswap but it now only works with tokens from SushiSwap pools.
                         </p>
                         <img src="" alt="" style="max-width: 400px;">
                         <p style="font-size: 18px; line-height: 2rem;">
-                            Users enter into the farms of their choice.
-                            <br> When farming users will receive a new distribution of Sushi with every block. In the first two weeks of launch the rewards were 1000 Sushi per block, divided by the proportional share of the pool.
-                            <br> The exception to this was the "Sushi Party!" pool which had an additional 2x bonus.
-                            <br> After the first two weeks the reward is set to drop to 100 Sushi per block.
-                            <br> The APY calculation is based on the return in ETH to the daily USD value, based on current block return annualized. It is not a fixed return, it is not a promised return, it is not financial advice. It is based on ETH
-                            returns.
+                            The liquidity provided to the exchange comes from Liquidity Providers ("LPs") who stake their tokens in "Pools". In return they get SLP (Sushiswap Liquidity Provider) tokens, which can also be staked in the "Farm".
+                            <br> When users make a trade on the exchange they pay a 0.3% trade fee.
                             <br>
+                            <b style="font-weight: 600; margin: 1rem 0; display: block;">0.25% fee reward for LPs:</b>
+                            <br> 0.25% of this trade fee goes to the Liquidity Providers who provide liquidity for that pool. It is added to the pool balance.
+                            <br> If previously there were 100 SLP tokens representing 100 ETH and 100 SRM each token would be worth 1 ETH & 1 SRM.
+                            <br> If one user trade 10 ETH for 10 SRM, and another traded 10 SRM for 10 ETH, then there would now be 100.025 ETH and 100.025 SRM.
+                            <br> This means each LP token would be worth 1.00025 ETH and 1.00025 SRM now when it is withdrawn.
+                            <br>
+                            <b style="font-weight: 600; margin: 1rem 0; display: block;">0.05% fee reward for xSushi holders:</b>
+                            <br> The remaining portion of the trade fee paid goes to a pool called SushiBar. The SushiBar contract collects the fees from all the pools, and when the reward distribution command is called, it then sells all the fees turning
+                            them into Sushi (via SushiSwap)
+                            <br> That new Sushi is divided up among the users in the xSushi pool. When those users withdraw their xSushi it will be worth more Sushi than when they put in from the distribution.
                             <!-- <b>If I am deposited into the "Farm" it says I don't have liquidity on exchange.sushiswapclassic.org/#/pool</b> -->
                         </p>
                     </section>
                     <!-- end of precompiled -->
                     <!--=====================
-                     css_files 
-                     =====================-->
+                    css_files 
+                    =====================-->
 
                     <!-- end of css_files -->
                     <!--=====================
-                     js_files 
-                     =====================-->
+                    js_files 
+                    =====================-->
 
 
 
