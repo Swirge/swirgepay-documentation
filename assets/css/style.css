@@ -227,8 +227,9 @@ ul.pro-ul li p {
 }
 
 .section {
-  padding: 60px 0;
+  padding: 30px 0;
   border-top: 1px solid #f0f0f0;
+  font-weight: bold!important;
 }
 
 .form-control:focus {
@@ -778,10 +779,11 @@ nav {
 }
 
 .content-section {
-  width: 70%;
+  width: 100%;
   float: left;
   padding-left: 20px;
-  padding-top: 50px;
+  padding-top: 20px;
+  font-weight: 500;
 }
 
 .right-nav {
@@ -1056,7 +1058,7 @@ nav {
   -------------------------------*/
 
 .introduction {
-  padding-bottom: 50px;
+  padding-bottom: 15px;
 }
 
 .introduction p {
