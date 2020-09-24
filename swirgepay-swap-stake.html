@@ -61,7 +61,7 @@
                     ====================== -->
                 <div class="sidebar-menu">
                     <ul>
-                        <li class="side-list"><a href="introduction.html">Swirge Pay Introduction</a></li>
+                        <li class="side-list"><a href="introduction.html">Introduction</a></li>
                         <li class="sidebar-dropdown">
                             <a><span>Getting Started</span></a>
                             <div class="sidebar-submenu">
@@ -76,7 +76,35 @@
                         </li>
                         <!-- end of sidebar-dropdown -->
                         <li class="side-list"><a href="layout.html">Overview</a></li>
-
+                        <li class="side-list"><a href="approach.html">Approach</a></li>
+                        <li class="sidebar-dropdown">
+                            <a><span>Guides</span></a>
+                            <div class="sidebar-submenu">
+                                <ul>
+                                    <li><a href="how-to-farm.html">How to farm with Swirge SLP tokens</a></li>
+                                    <li><a href="pagination.html">Pagination</a></li>
+                                    <li><a href="404.html">404</a></li>
+                                    <li><a href="faq.html">FAQ</a></li>
+                                    <li><a href="login.html">Login</a></li>
+                                    <li><a href="sign-up.html">Sign Up</a></li>
+                                    <li><a href="typography.html">Typography</a></li>
+                                </ul>
+                            </div>
+                            <!-- end of sidebar-submenu -->
+                        </li>
+                        <!-- end of sidebar-dropdown -->
+                        <li class="sidebar-dropdown">
+                            <a><span>Pages</span></a>
+                            <div class="sidebar-submenu">
+                                <ul>
+                                    <li><a href="bootstrap.html">Bootstrap</a></li>
+                                    <li><a href="bootstrap-2.html">Bootstrap lite</a></li>
+                                    <li><a href="semantic.html">Semantic</a></li>
+                                    <li><a href="badge.html">Badge</a></li>
+                                </ul>
+                            </div>
+                            <!-- end of sidebar-submenu -->
+                        </li>
                         <!-- end of sidebar-dropdown -->
                         <li class="side-list"><a href="contact.html">Contact</a></li>
                     </ul>
@@ -103,7 +131,7 @@
                      introduction
                      =====================-->
                     <section class="introduction">
-                        <h2>Swirge Pay Farms </h2>
+                        <h3>SwirgePay Staking</h3>
                         <!-- <p>Discover what’s included in Bootstrap, including our precompiled and source code flavors. Remember, Bootstrap’s JavaScript plugins require jQuery.</p> -->
                     </section>
                     <!-- end of introduction -->
@@ -111,58 +139,65 @@
                      precompiled
                      =====================-->
                     <section id="precompiled" class="section">
-                        <h3>The Swirge Pay Farms are located here:
-                        </h3>
-                        <ul style="font-size: 16px;">
-                            <li>
-                                <a href="">https://app.swirgeswap.com</a>
-                            </li>
-                        </ul>
                         <p>
-                            The Farm allows users to yield farm Swirge rewards with each new block based on staking SLP tokens they received from app.swirgepay.com/pool
-                            <br> The farm previously supported UNI-V2 LP tokens from Uniswap but it now only works with tokens from SushiSwap pools.
-                        </p>
-                        <img src="" alt="" style="max-width: 400px;">
-                        <p style="font-size: 18px; line-height: 2rem;">
-                            Users enter into the farms of their choice.
-                            <br> When farming users will receive a new distribution of Sushi with every block. In the first two weeks of launch the rewards were 1000 Sushi per block, divided by the proportional share of the pool.
-                            <br> The exception to this was the "Sushi Party!" pool which had an additional 2x bonus.
-                            <br> After the first two weeks the reward is set to drop to 100 Sushi per block.
-                            <br> The APY calculation is based on the return in ETH to the daily USD value, based on current block return annualized. It is not a fixed return, it is not a promised return, it is not financial advice. It is based on ETH
-                            returns.
-                            <br>
-                            <!-- <b>If I am deposited into the "Farm" it says I don't have liquidity on exchange.sushiswapclassic.org/#/pool</b> -->
-                        </p>
+                            The SwirgeBar located <a href="app.swirge.com/staking">
+                                app.swirge.com/staking
+                            </a> allows you to stake your Swirge and receive xSwirge in return and then you stake it in the xSwirge pool.
+                        <div style="
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-around;
+                            padding: 30px 0px;
+                        ">
+                            <img src="https://gblobscdn.gitbook.com/assets%2F-MGs7KFe5lOe31MsnUjD%2F-MGs7Lz3MSLwh4sew6dD%2F-MGsvawE4HUfvX0ilZAx%2Fimage.png?alt=media&token=861f2521-7f8b-4072-8eb0-bb2d4fe55505" alt="">
+                        </div>
+                        <div>
+                            <p>
+                                When users make trades on the SwirgeSwap Exchange a 0.3% fee is charged.
+                            </p>
+                            
+                            <p>
+                                0.05% of this fee is added to the SwirgeiBar pool in the form of LP tokens for the relative pool.
+                            </p>
+                            
+                            <p>
+                                When the rewards contract is called (minimum once per day) all the LP tokens are sold for Swirge (on SwirgeSwap Exchange). The newly purchased Swirge is then divided up proportionally between the xSwirge holders in the pool, meaning their xSwirge is now worth more Swirge.
+                            </p>
+                            
+                            <p>
+                                Currently you will not see the gained amount until you have withdrawn.
+                            </p>
+                            
+                            <p>
+                                It started as 1 Swirge = 1 xSwirge, but just like LP tokens the price of xSwirge changes over time depend on how many Swirge rewards are in the pool.
+                            </p>
+                        </div>
                     </section>
                     <!-- end of precompiled -->
                     <!--=====================
                      css_files 
                      =====================-->
+                    
+            <!-- =============================
+        footer
+        =============================-->
+            <footer>
+                <ul>
+                    <li><a href="#">Getting Started</a>
+                    </li>
+                    <li><a href="#">Layout</a>
+                    </li>
+                    <li><a href="#">Content</a>
+                    </li>
+                    <li><a href="#">Components</a>
+                    </li>
+                    <li><a href="#">Utilities</a>
+                    </li>
+                </ul>
+            </footer>
+            <!-- end of footer -->
 
-                    <!-- end of css_files -->
-                    <!--=====================
-                     js_files 
-                     =====================-->
-
-
-
-                    <footer>
-                        <ul>
-                            <li><a href="#">Getting Started</a>
-                            </li>
-                            <li><a href="#">Layout</a>
-                            </li>
-                            <li><a href="#">Content</a>
-                            </li>
-                            <li><a href="#">Components</a>
-                            </li>
-                            <li><a href="#">Utilities</a>
-                            </li>
-                        </ul>
-                    </footer>
-                    <!-- end of footer -->
-
-                    <!-- <div class="color-palette">
+            <!-- <div class="color-palette">
                 <a id="color-bar"><i class="ti-settings"></i></a>
                 <h4>Theme</h4>
                 <ul class="clearfix">
@@ -186,20 +221,20 @@
 
         </main>
         <!-- end of main" -->
-        </div>
-        <!-- page-wrapper -->
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS, then Plugins, then Custom js -->
-        <!-- jquery -->
-        <script src="assets/js/jquery.min.js"></script>
-        <!-- popper js-->
-        <script src="assets/js/popper.min.js"></script>
-        <!-- bootstrap js-->
-        <script src="assets/js/bootstrap.min.js"></script>
-        <!-- slideNav js -->
-        <script src="assets/js/slideNav.js"></script>
-        <!-- custom js -->
-        <script src="assets/js/custom.js"></script>
+    </div>
+    <!-- page-wrapper -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS, then Plugins, then Custom js -->
+    <!-- jquery -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- popper js-->
+    <script src="assets/js/popper.min.js"></script>
+    <!-- bootstrap js-->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- slideNav js -->
+    <script src="assets/js/slideNav.js"></script>
+    <!-- custom js -->
+    <script src="assets/js/custom.js"></script>
 </body>
 
 </html>
