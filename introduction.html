@@ -19,13 +19,7 @@
     <link id="main" rel="stylesheet" type="text/css" href="assets/css/color_01.css">
     <!-- changing color css -->
     <link id="theme" rel="stylesheet" type="text/css" href="assets/css/color_01.css">
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-          <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
-    <!-- Demo styles -->
+
 </head>
 
 <body>
@@ -63,7 +57,7 @@
                     <ul>
                         <li class="side-list"><a href="introduction.html">Swirge Pay Introduction</a></li>
                         <li class="sidebar-dropdown">
-                            <a><span>Getting Started</span></a>
+                            <a><span class="started">Getting Started</span></a>
                             <div class="sidebar-submenu">
                                 <ul>
                                     <li class="active"><a href="farming.html">Swirge Pay Yield Farming</a></li>
@@ -77,7 +71,8 @@
                         <li class="side-list"><a href="https://swirgepay.com/faq/">FAQ</a></li>
                         <li class="side-list"><a href="governance.html">Governance</a></li>
                         <li class="side-list"><a href="tokenomics.html">Tokenomics</a></li>
-                        <li class="side-list"><a href="how-to-add.html">How to add tokens to SwirgeSwap Exchange as an LP</a></li>
+                        <li class="side-list"><a href="how-to-add.html">How to add tokens to SwirgeSwap Exchange as an
+                                LP</a></li>
                     
                         <li class="side-list"><a href="layout.html">Overview</a></li>
                     
@@ -128,217 +123,12 @@
                         </ul>
                         <p>Each of these serve a different purpose within the ecosystem.</p>
                     </section>
-                    <!-- end of introduction -->
-                    <!--=============================
-                  quick_start 
-                  =============================-->
-                    <!--  -->
-                    <!-- end of quick_start -->
-                    <!--=============================
-                 why_build 
-                 =============================-->
-                    <!-- <section id="why_build " class="section ">
-                        <h3>Why Build Tools</h3>
-                        <p>Praesent ultricies dui at sagittis blandit. Nunc convallis venenatis quam, eu vehicula mauris. Donec malesuada mi odio, sit amet venenatis enim feugiat eu. In eget tortor ac tellus laoreet cursus. Vivamus sagittis suscipit quam,
-                            in auctor dolor semper a.</p>
-                        <p>Build tool settings are stored in a special file called <code>knwpro.json</code> It can be included in any folder that is in a parent folder of the VedhaDocs install folder.</p>
-                        <p>If you used the npm or meteor, a <code>knwpro.json</code> file is automatically generated for you in the root of your project. If you used a different package manager you can run <code>gulp</code> install to run the interactive
-                            installer.
-                        </p>
-
-                        <ul class="pro-ul ">
-                            <li>
-                                <p>Process LESS files with <code>theming variables</code></p>
-                            </li>
-                            <li>
-                                <p>Add vendor prefixes for <code>supported browsers</code> with <code>autoprefixer</code></p>
-                            </li>
-                            <li>
-                                <p>Watch file changes and rebuild the necessary files when adjusting themes</p>
-                            </li>
-                            <li>
-                                <p>Automatically process asset paths, so that minified and concatenated releases can exist in different directories</p>
-                            </li>
-                            <li>
-                                <p>Allow custom builds with only the required components for your site</p>
-                            </li>
-                            <li>
-                                <p>Allow advanced usage like Right-To-Left (RTL) languages using <code>RTLCSS</code></p>
-                            </li>
-                        </ul>
-
-                    </section> -->
-                    <!-- end of why_build -->
-                    <!--=============================
-                 recipes 
-                 =============================-->
-                    <!-- <section id="recipes " class="section ">
-                        <h3>Recipes</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <p>Running npm install normally will launch an interactive installer, to allow this installer to run without user interaction include a special flag autoInstall: truein your knwpro.json file.</p>
-                        <pre><code>npm install knwpro-ui-component</code></pre>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam </p>
-
-                    </section> -->
-                    <!-- end of recipes -->
-                    <!--=============================
-                 glossary 
-                 =============================-->
-                    <!-- <section id="glossary " class="section ">
-                        <div class="methods ">
-                            <h3>Glossary</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                            <div class="table-responsive ">
-                                <table class="table table-bordered doc-ui-table ">
-                                    <thead>
-                                        <tr>
-                                            <th>Method</th>
-                                            <th>Description</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td><code>$().alert()</code></td>
-                                            <td>Makes an alert listen for click events on descendant elements which have the <code>data-dismiss="alert "</code> attribute. (Not necessary when using the data-api’s auto-initialization.)</td>
-                                        </tr>
-                                        <tr>
-                                            <td><code>$().alert('close')</code></td>
-                                            <td>Closes an alert by removing it from the DOM. If the <code>.fade</code> and <code>.show</code> classes are present on the element, the alert will fade out before it is removed.</td>
-                                        </tr>
-                                        <tr>
-                                            <td><code>$().alert('dispose')</code></td>
-                                            <td>Destroys an element’s alert.</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            end of table-responsive
-              end of .method
-                    </section> -->
-                    <!-- end of #method -->
-                    <!--=============================
-                             folder_strtr 
-                             =============================-->
-                    <!-- <section id="folder_strtr " class="section ">
-                        <div class="methods ">
-                            <h3>Folder Structure</h3>
-                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-                            <pre>
-    |--- dist
-         |-- css
-             |- menu.css
-             |- themify-icons.css
-         |-- fonts
-         |-- images
-         |-- js
-             |- custom.js
-    |--- index.html             
-</pre> -->
-                    <!-- </div> -->
-                    <!-- end of .method -->
-                    <!-- </section> -->
-                    <!-- end of #method -->
-
-                    <!-- </div> -->
-                    <!-- end of content-section -->
-                    <!--=============================
-                right-nav
-                =============================-->
-                    <!-- <div class="right-nav nav ">
-                        <nav>
-                            <a href="#quick_start ">Quick Start</a>
-                            <a href="#why_build ">Why Build Tools</a>
-                            <a href="#recipes ">Recipes</a>
-                            <a href="#glossary ">Glossary</a>
-                            <a href="#folder_strtr ">Folder Stucture</a>
-                        </nav>
-                    </div> -->
-                    <!-- end of right-nav -->
-                    <!-- </div> -->
-                    <!-- end of main-content -->
-
-                    <!--=============================
-    chat-box
-    =============================-->
-                    <!-- <div id="body ">
-                        <div id="chat-circle " class="btn btn-raised ">
-                            <div id="chat-overlay "></div>
-                            <i class="ti-location-arrow "></i>
-                        </div>
-
-                        <div class="chat-box ">
-                            <div class="chat-box-header ">
-                                ChatBox
-                                <span class="chat-box-toggle "><i class="ti-close "></i></span>
-                            </div>
-                            <div class="chat-box-body ">
-                                <div class="chat-box-overlay ">
-                                </div>
-                                <div class="chat-logs ">
-
-                                </div> -->
-                    <!--chat-log -->
-                    <!-- </div>
-                <div class="chat-input ">
-                    <form>
-                        <input type="text " id="chat-input " placeholder="Send a message... " />
-                        <button type="submit " class="chat-submit " id="chat-submit "><i class="ti-arrow-right "></i></button>
-                    </form>
-                </div>
-            </div>
-    </div> -->
-                    <!-- end of chat box -->
-
-                    <!-- =============================
-        footer
-        =============================-->
-                    <!-- <footer>
-                        <ul>
-                            <li><a href="# ">Getting Started</a>
-                            </li>
-                            <li><a href="# ">Layout</a>
-                            </li>
-                            <li><a href="# ">Content</a>
-                            </li>
-                            <li><a href="# ">Components</a>
-                            </li>
-                            <li><a href="# ">Utilities</a>
-                            </li>
-                        </ul>
-                    </footer> -->
-                    <!-- end of footer -->
-
-                    <!-- <div class="color-palette ">
-                <a id="color-bar "><i class="ti-settings "></i></a>
-                <h4>Theme</h4>
-                <ul class="clearfix ">
-                    <li>
-                        <a href="# " id="blue-wlt "></a>
-                    </li>
-                    <li>
-                        <a href="# " id="gradient-wlt "></a>
-                    </li>
-                    <li>
-                        <a href="# " id="green-wlt "></a>
-                    </li>
-                    <li>
-                        <a href="# " id="red-wlt "></a>
-                    </li>
-                    <li>
-                        <a href="# " id="img-wlt "></a>
-                    </li>
-                </ul>
-            </div> -->
+                
 
         </main>
         <!-- page-content" -->
         </div>
-        <!-- page-wrapper -->
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS, then Plugins, then Custom js -->
-        <!-- jquery -->
+      
         <script src="assets/js/jquery.min.js"></script>
         <!-- popper js-->
         <script src="assets/js/popper.min.js"></script>
