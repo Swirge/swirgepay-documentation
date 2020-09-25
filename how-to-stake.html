@@ -69,7 +69,7 @@
                                         <li class="active"><a href="farming.html">Swirge Pay Yield Farming</a></li>
                                         <li><a href="pools.html">Swirge Pay Pools</a></li>
                                         <li><a href="swirgepay-swap-stake.html">SwirgePay Swap Staking</a></li>
-                                        <li><a href="SwirgeSwap-exchange.html">SwirgePay Swap Exchange</a></li>
+                                        <li><a href="SwirgeSwap-exchange.html">SwirgePaySwap Exchange</a></li>
                                     </ul>
                                 </div>
                                 <!-- end of sidebar-submenu -->
@@ -108,7 +108,7 @@
                      introduction
                      =====================-->
                     <section class="introduction">
-                        <h3>SwirgePay Pools</h3>
+                        <h3>How to Stake Swirge for xSwirge</h3>
                         <!-- <p>Discover what’s included in Bootstrap, including our precompiled and source code flavors. Remember, Bootstrap’s JavaScript plugins require jQuery.</p> -->
                     </section>
                     <!-- end of introduction -->
@@ -116,59 +116,75 @@
                      precompiled
                      =====================-->
                     <section id="precompiled" class="section">
-                        <p>
-                            SwirgePay pools 
-                            <a href="app.swirgepay.com">
-                                (app.swiregpay.com)
-                            </a> allows liquidity providers to add their tokens to liquidity pools.
-                            <br>
-                            When they do so they will receive SLP tokens (Swirgepay Liquidity Provider tokens) for example if a user deposited <span style="font-weight: 400;">$SWG</span> and <span style="font-weight: 400;">$ETH</span> into a pool they would receive SWG-ETH SLP tokens.
-                            <br>
-                            These tokens represent a proportional share of the pooled assets, allowing a user to reclaim their funds at any point.
+                        <p class="" style="font-weight:bold;">
+                            Step 1:
                         </p>
-                        <div style="
+                        <p>
+                            Go to <a href="app.swirge.com/staking">app.swirge.com/staking</a> - and unlock your wallet.
+                        </p>
+                        <p style="font-weight:bold;">
+                            Step 2:
+                        </p>
+                        <p>
+                            From there you'll be able to see the "Swirge Bar" where you can stake Swirge (turning it into xSwirge) in order to earn part of the 0.05% trade fee from all pools on the exchange.
+                        </p>
+                        <!-- <div style="
                             display: flex;
                             align-items: center;
                             justify-content: space-around;
                             padding: 30px 0px;
                         ">
-                            <img src="https://gblobscdn.gitbook.com/assets%2F-MGs7KFe5lOe31MsnUjD%2F-MGs7Lz3MSLwh4sew6dD%2F-MGsLHisrewzakLWrTkJ%2Fimage.png?alt=media&token=7d9f695c-2dff-47ed-9b50-7b4921b4c6d4" alt="">
-                        </div>
+                            <img src="./assets/images/img1.png" width="100%" alt="">
+                        </div> -->
                         <div>
-                            <p>
-                                As an LP its important to understand that you may be exposed to "Impermanent Loss" when providing liquidity.
-                                However, as a liquidity provider you will also receive trade fee reward.
+                            <p style="font-weight:bold;">
+                                Step 3:
                             </p>
                             
                             <p>
-                                Every time a user trades between $SWG and $ETH a 0.3% fee is taken on the trade. 0.25% of that trade goes back to the the LP pool.
+                                First, you may need to "Approve" the Swirge token before you are able to use it. Simply hit the "Approve SWG" button and sign the transaction with your wallet or MetaMask.
+                            </p>
+                            
+                            <!-- <div style="
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-around;
+                                padding: 30px 0px;
+                            ">
+                                <img src="./assets/images/img2.png" alt="">
+                            </div> -->
+                            
+                            <p style="font-weight:bold;">
+                                Step 4:
                             </p>
                             
                             <p>
-                                If previously there were 100 SLP tokens representing 100 ETH and 100 SWG each token would be worth 1 ETH & 1 SLP.
+                                Once the Swirge token is approved you'll be able to hit "Convert to xSwirge" to stake your Swirge.
                             </p>
-                            
+                            <p style="font-weight:bold;">
+                                Step 5:
+                            </p>
                             <p>
-                                If one user trade 10 ETH for 10 SWG, and another traded 10 SWG for 10 ETH, then there would now be 100.025 ETH and 100.025 SWG.
+                                Then a new window prompt will pop-up letting you select how much SWIRGE you want to stake. Select the amount, hit confirm and send the transaction.
                             </p>
-                            
+                            <p style="font-weight:bold;">
+                                Step 6:
+                            </p>
                             <p>
-                                This means each LP token would be worth 1.00025 ETH and 1.00025 SWG now when it is withdrawn.
-                                When you have your LP tokens you can also put them into yield farming on:
-                                <a href="https://app.swirgepay.com/farms">
-                                    https://app.swirgepay.com/farms
-                                </a> 
-                                If you are farming on the farms, you will still get the 0.25% reward fee for being an LP when you next remove your liquidity.
+                                After that you will see the xSwirge available in the bar.
                             </p>
-                            
                             <p>
-                                However, because the /farms and app.swirge.com/pools are different smart contracts its important to know that the pool page cannot see the tokens you have in farms.
+                                The amount of xSWIRGE in the SwirgeBar will not change. But the amount of Swirge it represents will.
                             </p>
-                            
                             <p>
-                                When you are on the pool page it only scans your wallet for SLP tokens to tell you if you are providing liquidity. Therefore it may say "No Liquidity" even though you ARE providing liquidity. It's just that it cannot see which tokens you've deposited into the farms.
+                                As fees are collected they are converted to $SWIRGE and distributed proportionally across holders in the xSWIRGE pool. So when you withdraw your xSWIRGE back into $SWIRGE it will be worth more $SWIRGE than when you put in.
                             </p>
-                            
+                            <p>
+                                These rewards are slower to update (because they cost a lot of gas) and so you should expect them to update, on average, once per day.
+                            </p>
+                            <p>
+                                Currently there is no way in the UI to see the level of rewards until you withdraw. The team is working to fix this.
+                            </p>
                         </div>
                     </section>
                     <!-- end of precompiled -->

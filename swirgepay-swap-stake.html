@@ -108,7 +108,7 @@
                      introduction
                      =====================-->
                     <section class="introduction">
-                        <h3>SwirgePay Pools</h3>
+                        <h3>SwirgePay Staking</h3>
                         <!-- <p>Discover what’s included in Bootstrap, including our precompiled and source code flavors. Remember, Bootstrap’s JavaScript plugins require jQuery.</p> -->
                     </section>
                     <!-- end of introduction -->
@@ -117,58 +117,37 @@
                      =====================-->
                     <section id="precompiled" class="section">
                         <p>
-                            SwirgePay pools 
-                            <a href="app.swirgepay.com">
-                                (app.swiregpay.com)
-                            </a> allows liquidity providers to add their tokens to liquidity pools.
-                            <br>
-                            When they do so they will receive SLP tokens (Swirgepay Liquidity Provider tokens) for example if a user deposited <span style="font-weight: 400;">$SWG</span> and <span style="font-weight: 400;">$ETH</span> into a pool they would receive SWG-ETH SLP tokens.
-                            <br>
-                            These tokens represent a proportional share of the pooled assets, allowing a user to reclaim their funds at any point.
-                        </p>
+                            The SwirgeBar located <a href="app.swirge.com/staking">
+                                app.swirge.com/staking
+                            </a> allows you to stake your Swirge and receive xSwirge in return and then you stake it in the xSwirge pool.
                         <div style="
                             display: flex;
                             align-items: center;
                             justify-content: space-around;
                             padding: 30px 0px;
                         ">
-                            <img src="https://gblobscdn.gitbook.com/assets%2F-MGs7KFe5lOe31MsnUjD%2F-MGs7Lz3MSLwh4sew6dD%2F-MGsLHisrewzakLWrTkJ%2Fimage.png?alt=media&token=7d9f695c-2dff-47ed-9b50-7b4921b4c6d4" alt="">
+                            <img src="./assets/images/img3.png" width="100%" alt="">
                         </div>
                         <div>
                             <p>
-                                As an LP its important to understand that you may be exposed to "Impermanent Loss" when providing liquidity.
-                                However, as a liquidity provider you will also receive trade fee reward.
+                                When users make trades on the SwirgeSwap Exchange a 0.3% fee is charged.
                             </p>
                             
                             <p>
-                                Every time a user trades between $SWG and $ETH a 0.3% fee is taken on the trade. 0.25% of that trade goes back to the the LP pool.
+                                0.05% of this fee is added to the SwirgeiBar pool in the form of LP tokens for the relative pool.
                             </p>
                             
                             <p>
-                                If previously there were 100 SLP tokens representing 100 ETH and 100 SWG each token would be worth 1 ETH & 1 SLP.
+                                When the rewards contract is called (minimum once per day) all the LP tokens are sold for Swirge (on SwirgeSwap Exchange). The newly purchased Swirge is then divided up proportionally between the xSwirge holders in the pool, meaning their xSwirge is now worth more Swirge.
                             </p>
                             
                             <p>
-                                If one user trade 10 ETH for 10 SWG, and another traded 10 SWG for 10 ETH, then there would now be 100.025 ETH and 100.025 SWG.
+                                Currently you will not see the gained amount until you have withdrawn.
                             </p>
                             
                             <p>
-                                This means each LP token would be worth 1.00025 ETH and 1.00025 SWG now when it is withdrawn.
-                                When you have your LP tokens you can also put them into yield farming on:
-                                <a href="https://app.swirgepay.com/farms">
-                                    https://app.swirgepay.com/farms
-                                </a> 
-                                If you are farming on the farms, you will still get the 0.25% reward fee for being an LP when you next remove your liquidity.
+                                It started as 1 Swirge = 1 xSwirge, but just like LP tokens the price of xSwirge changes over time depend on how many Swirge rewards are in the pool.
                             </p>
-                            
-                            <p>
-                                However, because the /farms and app.swirge.com/pools are different smart contracts its important to know that the pool page cannot see the tokens you have in farms.
-                            </p>
-                            
-                            <p>
-                                When you are on the pool page it only scans your wallet for SLP tokens to tell you if you are providing liquidity. Therefore it may say "No Liquidity" even though you ARE providing liquidity. It's just that it cannot see which tokens you've deposited into the farms.
-                            </p>
-                            
                         </div>
                     </section>
                     <!-- end of precompiled -->
